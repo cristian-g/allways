@@ -1,0 +1,50 @@
+/* 
+    Color      : Light Green
+    Color Code : #27ae60
+	Hover Code : #1e8449
+*/
+::-moz-selection {
+ background:#27ae60;
+}
+
+::selection {
+	background: #27ae60;
+}
+.bg-theme,
+.bg-overlay-theme:before,
+.btn--primary,
+.navbar-toggle .icon-bar,
+.page-dark .testimonial-panel:hover,
+.testimonial-panel:hover{
+	background-color:#27ae60;
+	
+}
+
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover,
+.feature-left-circle .feature-panel:hover .feature--icon{
+	background-color: #27ae60;
+	border-color: #27ae60;
+}
+
+a,
+.text-theme,
+.feature-panel .feature--icon,
+.landing-demos .portfolio-title:hover h4,
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover,
+.page-dark .btn--primary:active,
+.page-dark .btn--primary:focus,
+.page-dark .btn--primary:hover{
+	color: #27ae60;
+}
+
+.feature-left-circle .feature--icon{
+color:#27ae60;
+border-color: #27ae60;
+}
+

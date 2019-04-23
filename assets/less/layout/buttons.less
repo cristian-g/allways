@@ -1,0 +1,161 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn {
+	font-family: @font-body;
+	position: relative;
+	z-index: 2;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 0;
+	padding: 0;
+	line-height: 45px;
+	width: 170px;
+	height: 45px;
+}
+
+.btn.active,
+.btn:active {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* Button Primary */
+
+.btn--primary {
+	background-color: @color-theme;
+	color: @color-white;
+	border: none;
+}
+
+.btn--primary:active,
+.btn--primary:focus,
+.btn--primary:hover {
+	background-color: @color-heading;
+	color: @color-white;
+}
+/* Button Secondary*/
+
+.btn--secondary {
+	background-color: @color-heading;
+	color: @color-white;
+	border: 2px solid @color-heading;
+}
+
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover {
+	background-color: @color-theme;
+	color: @color-white;
+	border-color: @color-theme;
+}
+/* Button White */
+
+.btn--white {
+	background-color: @color-white;
+	color: @color-heading;
+	border: 1px solid @color-white;
+	border-radius: 4px;
+}
+
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover {
+	background-color: @color-theme;
+	color: @color-white;
+	border-color: @color-theme;
+}
+/* Button Block */
+
+.btn--block {
+	width: 100%;
+}
+
+.btn--auto {
+	width: auto;
+}
+/* Button Rounded */
+
+.btn--rounded {
+	border-radius: 50px;
+}
+/* Button Bordered */
+.btn--bordered {
+	background-color: transparent;
+}
+
+.btn--bordered.btn--primary {
+	color: @color-theme;
+	border-color: @color-theme
+}
+
+.btn--bordered.btn--primary:active,
+.btn--bordered.btn--primary:focus,
+.btn--bordered.btn--primary:hover {
+	color: @color-white;
+	background-color: @color-theme;
+	border-color: @color-theme
+}
+
+.btn--bordered.btn--secondary {
+	color: @color-heading;
+	border-color: @color-heading
+}
+
+.btn--bordered.btn--secondary:active,
+.btn--bordered.btn--secondary:focus,
+.btn--bordered.btn--secondary:hover {
+	color: @color-white;
+	background-color: @color-heading;
+	border-color: @color-heading
+}
+
+.btn--bordered.btn--white {
+	color: @color-white;
+	border-color: @color-white
+}
+
+.btn--bordered.btn--white:active,
+.btn--bordered.btn--white:focus,
+.btn--bordered.btn--white:hover {
+	color: @color-theme;
+	background-color: @color-white;
+	border-color: @color-white
+}
+
+.btn--white.btn--secondary {
+	color: @color-heading;
+	border-color: @color-white;
+	background-color: @color-white;
+}
+
+.btn--white.btn--secondary:active,
+.btn--white.btn--secondary:focus,
+.btn--white.btn--secondary:hover {
+	color: @color-white;
+	background-color: @color-theme;
+	border-color: @color-theme;
+}
+
+.bg-overlay-theme .btn--primary,
+.bg-theme .btn--primary {
+	background-color: #2ecc71;
+	color: @color-white;
+	border: none;
+}
+
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover {
+	color: @color-theme
+}
+
+.navbar-toggle {
+	border-color: @color-theme;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin-top: 35px;
+}

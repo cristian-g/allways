@@ -1,0 +1,50 @@
+ /* 
+    Color      : Orange
+    Color Code : #f39c12
+	Hover Code : #c87f0a
+*/
+::-moz-selection {
+ background: #f39c12;
+}
+
+::selection {
+	background:  #f39c12;
+}
+.bg-theme,
+.bg-overlay-theme:before,
+.btn--primary,
+.navbar-toggle .icon-bar,
+.page-dark .testimonial-panel:hover,
+.testimonial-panel:hover{
+	background-color: #f39c12;
+	
+}
+
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover,
+.feature-left-circle .feature-panel:hover .feature--icon{
+	background-color:  #f39c12;
+	border-color:  #f39c12;
+}
+
+a,
+.text-theme,
+.feature-panel .feature--icon,
+.landing-demos .portfolio-title:hover h4,
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover,
+.page-dark .btn--primary:active,
+.page-dark .btn--primary:focus,
+.page-dark .btn--primary:hover{
+	color:  #f39c12;
+}
+
+.feature-left-circle .feature--icon{
+color: #f39c12;
+border-color:  #f39c12;
+}
+

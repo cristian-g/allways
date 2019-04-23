@@ -1,0 +1,51 @@
+/* 
+    Color      : Gray
+    Color Code : #93a1a2
+	Hover Code : #6b7c7d
+*/
+
+::-moz-selection {
+ background:#93a1a2;
+}
+
+::selection {
+	background: #93a1a2;
+}
+.bg-theme,
+.bg-overlay-theme:before,
+.btn--primary,
+.navbar-toggle .icon-bar,
+.page-dark .testimonial-panel:hover,
+.testimonial-panel:hover{
+	background-color:#93a1a2;
+	
+}
+
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover,
+.feature-left-circle .feature-panel:hover .feature--icon{
+	background-color: #93a1a2;
+	border-color: #93a1a2;
+}
+
+a,
+.text-theme,
+.feature-panel .feature--icon,
+.landing-demos .portfolio-title:hover h4,
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover,
+.page-dark .btn--primary:active,
+.page-dark .btn--primary:focus,
+.page-dark .btn--primary:hover{
+	color: #93a1a2;
+}
+
+.feature-left-circle .feature--icon{
+color:#93a1a2;
+border-color: #93a1a2;
+}
+

@@ -1,0 +1,38 @@
+
+/*------------------------------------*\
+    #BOXED LAYOUT
+\*------------------------------------*/
+.page-boxed {
+	background: url(../images/background/patterns/wood-dark.jpg)
+}
+
+@media only screen and (min-width : 1200px) {
+
+.page-boxed .wrapper {
+	width: 1170px;
+	margin: auto;
+	-moz-box-shadow:  0 3px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow:   0 3px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.page-boxed .wrapper .container {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+}
+
+@media only screen and (max-width : 1200px) {
+
+.page-boxed .wrapper {
+	width: auto;
+	margin: auto;
+	overflow-x: hidden;
+}
+}
+
+.page-boxed .header-fixed .affix {background-color:transparent}
+.page-boxed .header-fixed .affix .container{background-color:@color-white}
+.page-boxed .col-content {
+    padding: 90px;
+}

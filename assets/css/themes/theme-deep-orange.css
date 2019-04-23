@@ -1,0 +1,51 @@
+/* 
+    Color      : Deep Orange
+    Color Code : #ff5722
+	Hover Code : #ee3900
+*/
+
+::-moz-selection {
+ background:#ff5722;
+}
+
+::selection {
+	background: #ff5722;
+}
+.bg-theme,
+.bg-overlay-theme:before,
+.btn--primary,
+.navbar-toggle .icon-bar,
+.page-dark .testimonial-panel:hover,
+.testimonial-panel:hover{
+	background-color:#ff5722;
+	
+}
+
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover,
+.feature-left-circle .feature-panel:hover .feature--icon{
+	background-color: #ff5722;
+	border-color: #ff5722;
+}
+
+a,
+.text-theme,
+.feature-panel .feature--icon,
+.landing-demos .portfolio-title:hover h4,
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover,
+.page-dark .btn--primary:active,
+.page-dark .btn--primary:focus,
+.page-dark .btn--primary:hover{
+	color: #ff5722;
+}
+
+.feature-left-circle .feature--icon{
+color:#ff5722;
+border-color: #ff5722;
+}
+

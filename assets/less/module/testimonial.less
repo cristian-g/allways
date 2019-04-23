@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    #Testimonial
+\*------------------------------------*/
+
+.testimonial-panel {
+	border-radius: 6px;
+	background-color: #f8f8f8;
+	padding: 40px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.testimonial-panel .testimonial--body {
+	margin-bottom: 20px;
+}
+
+.testimonial-panel .testimonial--body p {
+	color: #aaaaaa;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+
+.testimonial-panel .testimonial--meta h5 {
+	color: #222222;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+.testimonial-panel .testimonial--rating i {
+	color: #f3be3c;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 2px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.testimonial-panel:hover {
+	background-color: @color-theme;
+	cursor: pointer;
+}
+
+.testimonial-panel:hover .testimonial--body p,
+.testimonial-panel:hover .testimonial--meta h5 {
+	color: @color-white;
+}
+
+.testimonial-panel:hover .testimonial--rating i {
+	font-size: 18px;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.testimonial-panel {
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+
+	.testimonial--meta {
+		text-align: center;
+	}
+
+	.testimonial--author,
+	.testimonial--rating {
+		float: none !important;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.testimonial-panel {
+		padding: 40px 10px;
+	}
+}

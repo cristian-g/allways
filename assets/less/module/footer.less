@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #Footer
+\*------------------------------------*/
+
+.footer {
+	background-color: @color-white;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+
+.footer--copyright {
+	color: #999999;
+	font-family: @font-heading;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: capitalize;
+}
+
+.footer--copyright i {
+	color: red;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.footer--copyright {
+		font-size: 12px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {}

@@ -1,0 +1,383 @@
+/*------------------------------------*\
+    #Menu
+\*------------------------------------*/
+
+.header .navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.header .navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	min-height: 100px;
+	border: none;
+	top: -200px;
+}
+
+.header .navbar.affix {
+	top: 0;
+}
+
+.header-bordered .navbar {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.header .navbar .logo {
+	max-width: 100%;
+	height: auto;
+	line-height: 100px;
+}
+
+.navbar-nav:not(.nav-pos-right) {
+	margin-right: 200px;
+}
+
+.nav-bordered-right {
+	margin-right: 30px;
+}
+
+.nav-bordered-right + .module:first-of-type:before {
+	position: relative;
+	margin-left: 12px;
+}
+
+.nav-bordered-right + .module:first-of-type:before {
+	position: absolute;
+	top: 50%;
+	margin-top: -13px;
+	left: -46px;
+	content: "";
+	width: 2px;
+	height: 26px;
+	background-color: #c9c9c9;
+}
+
+.affix .nav-bordered-right + .module:first-of-type:before {
+	background-color: #c9c9c9;
+}
+
+.navbar-nav > li {
+	margin-right: 32px;
+}
+
+.navbar-nav > li > a {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 100px;
+	color: @color-white;
+	padding: 0;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-nav > li.active > ul {
+	margin-top: 0;
+}
+
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: @color-white
+}
+/* Menu Level #1 */
+
+.navbar-nav > li > a:before {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0;
+	height: 3px;
+	background: transparent;
+	content: '';
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.navbar-nav > li > a:hover::before,
+.navbar-nav > li.active > a:before {
+	background-color: @color-white;
+	width: 100%;
+}
+
+.transparent-header .navbar {
+	background-color: transparent;
+	height: 101px;
+}
+/* Header Light */
+
+.header-light {
+	background-color: @color-white;
+}
+
+.header-light .navbar .logo-dark {
+	display: inline-block;
+}
+
+.header-light .navbar .logo-light {
+	display: none;
+}
+
+.header-light .navbar .navbar-nav > li > a:hover::before,
+.header-light .navbar .navbar-nav > li.active > a:before {
+	background-color: #222222;
+}
+/* Header Fixed */
+
+.header-fixed .affix {
+	background-color: @color-white;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.09);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.09);
+	-ms-box-shadow: 0 1px 3px rgba(0,0,0,.09);
+	box-shadow: 0 1px 3px rgba(0,0,0,.09);
+	display: block;
+}
+
+.header-fixed:not(.header-light) .navbar .logo-dark {
+	display: none;
+}
+
+.header-fixed .navbar.affix .logo-dark {
+	display: inline-block;
+}
+
+.header-fixed .navbar.affix .logo-light {
+	display: none;
+}
+
+.header-fixed .navbar.affix .module .module-icon i,
+.header-fixed .navbar.affix .navbar-nav > li > a {
+	color: #222222;
+}
+
+.header-fixed .navbar.affix .navbar-nav > li > a:hover::before,
+.header-fixed .navbar.affix .navbar-nav > li.active > a:before {
+	background-color: #222222;
+}
+/* Header Centered */
+
+.header-centered {
+	height: 255px;
+}
+
+.header-centered .navbar-collapse {
+	padding-right: 260px;
+	padding-left: 260px;
+}
+
+.header-centered .navbar {
+	top: 155px;
+}
+
+.header-centered .navbar.affix {
+	top: 0;
+}
+
+.header-centered .logo-centered {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+/* Header With Top Bar */
+
+.header-topbar {
+	height: 155px;
+}
+
+.header-topbar .navbar {
+	top: 55px;
+}
+
+.header-topbar .navbar.affix {
+	top: 0;
+}
+/* Header #3 */
+
+.header-3 .navbar-nav {
+	margin-right: 30px;
+	border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.header-3 .navbar + .module:first-of-type:before {
+	position: relative;
+	margin-left: 12px;
+}
+/* Header #5 */
+
+.header-5 .container-fluid {
+	padding-right: 0;
+}
+
+.header-5 .module {
+	position: relative;
+	border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.header-5 .module .module-icon {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+/* Header #5 */
+
+.header-6 .container-fluid {
+	padding-right: 0;
+}
+
+.header-6 .navbar {
+	min-height: 79px;
+}
+
+.header-6 .navbar .logo {
+	height: 79px;
+	line-height: 79px;
+}
+
+.header-6 .module .module-icon {
+	line-height: 79px;
+}
+
+.header-6 .module .module-label {
+	top: 24px;
+	right: 17px;
+	left: auto;
+}
+
+.header-6 .navbar-nav > li {
+	margin-right: 0;
+}
+
+.header-6 .navbar-nav > li > a {
+	padding-right: 32px;
+	padding-left: 32px;
+	border-left: 1px solid rgba(255, 255, 255, 0.25);
+	line-height: 79px;
+}
+
+.header-6 .navbar-nav > li > .menu-item:before {
+	display: none;
+}
+
+.header-6 .navbar-nav > li.active,
+.header-6 .navbar-nav > li:hover {
+	background-color: rgba(34, 34, 34, 0.5);
+}
+
+.header-6 .module {
+	position: relative;
+	border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.header-6 .module .module-icon {
+	margin-left: 32px;
+	margin-right: 32px;
+}
+/* Header Centered */
+
+.header-7 {
+	height: 305px;
+}
+
+.header-7 .navbar {
+	top: 205px;
+}
+
+.header-7 .navbar.affix {
+	top: 0;
+}
+/* Header #13 */
+
+.header-13 .logo {
+	position: absolute;
+	left: 50%;
+	margin-left: -51px;
+}
+/* Header #10 */
+
+.header-10 .nav-bordered-right + .module:first-of-type:before {
+	background-color: #464d52;
+}
+/* Header #16 */
+
+.header-16 .navbar {
+	top: 30px;
+}
+
+.header-16 .navbar.affix {
+	top: 0;
+}
+/* Header #17 */
+
+.header-centered.header-17 {
+	height: 265px;
+}
+
+.header-centered.header-17 .navbar {
+	top: 165px;
+}
+
+.header-17 .navbar.affix {
+	top: 0;
+}
+/* Header Half */
+
+.header-half .navbar-nav > li > .menu-item:before {
+	bottom: 36px;
+}
+/* Container Bordered */
+
+.container-bordered {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	height: 100px;
+}
+/* Navbar Dark */
+
+.header-transparent.header-light .navbar.affix {
+	background-color: transparent;
+}
+
+.navbar.navbar--dark .logo-dark {
+	display: inline-block !important;
+}
+
+.navbar.navbar--dark .logo-light {
+	display: none;
+}
+
+.navbar.navbar--dark .module .module-icon,
+.navbar.navbar--dark .module .module-icon i,
+.navbar.navbar--dark .navbar-nav > li > a {
+	color: #222222;
+}
+
+.header-8 .navbar.navbar--dark .module-menu .module-icon:after,
+.navbar.navbar--dark .navbar-nav > li > .menu-item:hover::before,
+.navbar.navbar--dark .navbar-nav > li.active > .menu-item:before {
+	background-color: #222222;
+}
+/* Header Split */
+
+.header-split .logo-dark {
+	display: none;
+}
+
+.header-split .logo-light {
+	display: inline-block;
+}
+
+.header-split .module .module-icon i,
+.header-split .navbar-nav > li > a {
+	color: #222222;
+}
+
+.header-split .navbar-nav > li > .menu-item:hover::before,
+.header-split .navbar-nav > li.active > .menu-item:before {
+	background-color: #222222;
+}
