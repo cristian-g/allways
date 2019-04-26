@@ -88,6 +88,7 @@
   -webkit-animation-duration: 4.5s;
   animation-name: fade;
   animation-duration: 4.5s;
+  opacity: 1 !important;
 }
 
 @-webkit-keyframes fade {
