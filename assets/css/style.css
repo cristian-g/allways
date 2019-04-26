@@ -281,7 +281,6 @@ p {
 }
 
 .text--capitalize {
-	text-transform: capitalize !important;
 }
 
 .text--uppercase {
@@ -1527,7 +1526,6 @@ section {
 	font-weight: 400;
 	line-height: 45px;
 	height: 45px;
-	text-transform: capitalize;
 	border: none;
 	background: #ffffff;
 	padding-left: 24px;
@@ -1575,7 +1573,6 @@ section {
 	font-weight: 700;
 	line-height: 1;
 	margin-bottom: 30px;
-	text-transform: capitalize;
 }
 
 .heading .heading--desc {
@@ -2230,7 +2227,6 @@ li a:hover,
 	font-weight: 400;
 	line-height: 60px;
 	margin-bottom: 27px;
-	text-transform: capitalize;
 }
 
 .slider .slide--bio {
@@ -2349,7 +2345,6 @@ li a:hover,
 	font-weight: 700;
 	line-height: 18px;
 	margin-bottom: 0;
-	text-transform: capitalize;
 }
 
 .testimonial-panel .testimonial--rating i {
@@ -2440,7 +2435,6 @@ li a:hover,
 	font-weight: 700;
 	line-height: 1;
 	margin-bottom: 19px;
-	text-transform: capitalize;
 }
 
 .feature-panel .feature--content p {
@@ -2652,7 +2646,6 @@ li a:hover,
 	font-weight: 400;
 	line-height: 1;
 	margin-bottom: 35px;
-	text-transform: capitalize;
 }
 
 .pricing-panel .pricing--heading span.currency {
@@ -2729,7 +2722,6 @@ li a:hover,
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1;
-	text-transform: capitalize;
 }
 
 .footer--copyright i {
@@ -3025,7 +3017,6 @@ li a:hover,
 	font-size: 65px;
 	font-weight: 700;
 	line-height: 70px;
-	text-transform: capitalize;
 }
 
 .landing-hero p {
@@ -3049,7 +3040,6 @@ li a:hover,
 	text-align: center;
 	font-size: 16px;
 	font-weight: 600;
-	text-transform: capitalize;
 	margin-bottom: 0;
 }
 
@@ -3125,7 +3115,6 @@ li a:hover,
 	font-weight: 700;
 	line-height: 1;
 	margin-right: 29px;
-	text-transform: capitalize;
 }
 
 .portfolio-filter li:last-child a {
